@@ -1,0 +1,95 @@
+FUNCTIONS:
+
+  split(' ')			split string
+  sorted(words)			sort words
+  pop(0)				get first word
+  pop(-1) 			get last word 
+  assert x			checks x is true
+
+LOGIC:
+
+  and
+  or
+  not
+  !=
+  ==
+  >=
+  <=
+  True
+  False
+
+RANDOM:
+
+tuples				immutable list
+
+range(0,5)			goes from 0 to 4
+
+with open(filename) as f:	closes file after statement
+    do something
+
+class Person(object)		defines Person class
+
+continue			skip rest of loop iteration
+
+except	ValueError, e:		if exception happens do this
+
+exec 'print "hello"'		runs string in python
+
+finally				does this regardless of exception
+
+global				define global variable
+
+is				tests equality like ==
+
+lambda				create anonymous function calls
+    s = lambda y: y ** y:
+    s(3)
+    
+pass (def empty(): pass)	signifies empty block
+
+try				like try catch
+except
+
+yield 				returns for generator
+    def x(): yield y*y
+    z = x()
+    for i in z:
+	print i
+	
+return i for i in xrange(x)	returns generator that can be used in loop like above
+
+DATA TYPES:
+
+None is null
+numbers store integers
+floats store decimals
+lists store lists of things	j = [1,2,3,4]
+dicts stores key=value mapping --> e = {'x' : 1, 'y':2}
+
+STRING FORMATS:
+
+%d = %i			integers
+%o			octal numbers
+%u			unsigned decimals
+%x			hexadecimal lowercase
+%X			hexadecimal uppercase
+%e			exponential notation lowercase e 1.000000e+03
+%E			exponential notation lowercase E 1.000000E+03
+%f			floating point real number 10.340000
+%F			same as above
+%g			either %f or %e which ever is shorter
+%G			same as %g but uppercase
+%c			character
+%r			repr format, debugging format
+%s			string
+%%			percent sign "%g%%" % 10.34 == '10.34%'
+
+OPERATORS
+
+//			floor division
+**			power of
+
+
+
+
+   
